@@ -3,7 +3,7 @@ import google.generativeai as genai
 import PyPDF2
 
 # Set up Gemini API key
-genai.configure(api_key="AIzaSyDVLjmWaDUyAfgY7RIqFmlUfqObrev5zAk")  # Replace with your free Gemini API key
+genai.configure(api_key="AIzaSyDVLjmWaDUyAfgY7RIqFmlUfqObrev5zAk") 
 
 # Initialize Gemini model
 model = genai.GenerativeModel("gemini-pro")
